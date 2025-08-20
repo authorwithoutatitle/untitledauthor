@@ -1,0 +1,32 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "Lanterns in the Valley"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+[params.homeInfoParams]
+Title = "Welcome"
+Content = "Short lanterns and longer reflections."
+
+[params]
+defaultTheme = "auto"
+showReadingTime = true
+showToc = true
+description = "Short lanterns and longer reflections."
+disableSpecial1stPost = false
+
+[menu]
+  [[menu.main]]
+  name = "Lanterns"
+  url = "/lanterns/"
+  weight = 1
+  [[menu.main]]
+  name = "Essays"
+  url = "/posts/"
+  weight = 2
+  [[menu.main]]
+  name = "Causes"
+  url = "/causes/"
+  weight = 3
